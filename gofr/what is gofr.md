@@ -1,10 +1,10 @@
 ---
-title: what-is-gofr
+title: Gofrとは
 date: 2023-12-19
 hidden: false
 tags:
 ---
-# `Gofr` とは
+
 
 [公式HP](https://gofr.dev/)
 
