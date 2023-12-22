@@ -1,6 +1,6 @@
 ---
 title: gofrのcontextを知る
-date: 
+date: 2023-12-22
 hidden: false
 tags:
 ---
