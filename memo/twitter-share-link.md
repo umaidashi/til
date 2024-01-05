@@ -5,8 +5,6 @@ date: 2024-1-5
 
 ## 実装
 
-![実装例](https://github.com/umaidashi/til/blob/main/images/share-link-image.png?raw=true)
-
 ### Logic
 
 ```ts
