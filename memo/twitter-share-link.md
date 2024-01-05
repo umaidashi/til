@@ -5,7 +5,10 @@ date: 2024-1-5
 
 ## 実装
 
+![実装例](https://github.com/umaidashi/til/blob/main/images/share-link-image.png?raw=true)
+
 ### Logic
+
 ```ts
 const TwitterAccountName = "umaidashi18";
 
@@ -33,10 +36,11 @@ const generateShareTweetUrl = (
 export default generateShareTweetUrl;
 ```
 
-`undefined`にならないように、URLクラスを使用し、`searchParams`をセットしていく
-型安全にurlを作成できる
+`undefined`にならないように、URL クラスを使用し、`searchParams`をセットしていく
+型安全に url を作成できる
 
 ### UI
+
 ```astro
 ---
 import socialIcons from "@assets/socialIcons";
@@ -68,9 +72,11 @@ const href = generateShareTweetUrl(text, url, hashtags);
   }
 </style>
 ```
+
 [`astro-paper`](https://github.com/satnaing/astro-paper)を使用しているため、既存のコンポーネントを使った
 
 ### 使用例
+
 ```astro
 ---
 ...
@@ -79,7 +85,9 @@ const shareUrl = Astro.url.origin + Astro.url.pathname;
 ---
 <ShareTweetButton text={title} url={shareUrl} />
 ```
-ページのURLは、[`Astro.url`](https://docs.astro.build/ja/reference/api-reference/#astrourl)で取得することができる
+
+ページの URL は、[`Astro.url`](https://docs.astro.build/ja/reference/api-reference/#astrourl)で取得することができる
 
 ## まとめ
+
 いい感じになってよかった
