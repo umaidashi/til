@@ -7,7 +7,7 @@ tags:
 
 pr: [Fixed selected date text color not white in Calendar](https://github.com/yamada-ui/yamada-ui/pull/967)
 
-##　修正したバグ
+## 修正したバグ
 
 `yamada-ui`のカレンダーコンポーネントで、週末(`data-weekend`)や前月来月の部分(`data-outside`)にdata属性でスタイルを変えることができる。
 しかし、ライトモードにおいて選択された状態にあたるdata属性(`data-selected`)と詳細度が一致し、プログラムの構成上後に記述される`data-weekend`が適用され、日付選択時に白字になっていない
